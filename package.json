@@ -1,0 +1,20 @@
+{
+  "name": "floppy-pi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/main.js"
+  },
+  "private": true,
+  "dependencies": {
+    "async": "~2.3.0",
+    "rpio": "~0.9.16"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.40",
+    "@types/node": "^7.0.12",
+    "@types/rpio": "0.0.1",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
